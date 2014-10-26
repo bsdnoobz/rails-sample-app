@@ -1,0 +1,25 @@
+# The operating system for our build minion
+build_environment: Ubuntu 12.04
+
+# The programming language being used
+language: ruby
+
+# Use RVM and Ruby 2.1.2
+rvm:
+  - 2.1.2
+
+# Set the environment variables
+env:
+  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
+
+# Prepare the things needed before executing the unit tests
+before_script:
+  - bundle install
+  - mkdir -p shippable/testresults
+  - mkdir -p shippable/codecoverage
+  - rake db:migrate
+
+# The command for executing the unit test
+script:
+  - rake test
+
