@@ -13,7 +13,7 @@ env:
   global:
     - APP_NAME=fathomless-ocean-2995
     - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
-    - secure: "a+WO3TxxmI/lIt5abubetS/sBsREx/EKj6S4gGRAcXvP/XD0oBPIKVd+7bkvqiRkK4r+oGcUb28Ioj2/R2hq2U1Imdt3RRy3D7m9rK3I27Vtk97SKndY/FgEXyqwOn+OyCvqwJbYN2AMVKUm24s1MhMX4WUzkZJjFBNSHeDD0Q8h58Dgj/gskWD4xVLbD3ofZDxSz6maQloUTZTjGUOptYWZAWl3MU3WTrEvDh/G77rfVXpuJnk+XLloRxMRfuewDtmIAb9d+AwoPhYz3y1wsjowzQi5BAmLplc3hFaSf2TjiBd60bXdE1pkjQpkRrGOiE9DMIv/KPhaGXVQr7EGLg=="
+    - secure: G4Rf9X8MPFq3wriVpTTlDD5/q+2MbOJdhp4zdpmhhUppWCkoUTNZ1cjZ0sz4bW6o3zwCg4rSq1KB2rbXV39rLkuHNmXc7vpheYho5YEvPy6SFlUsn6cJGApmojxsVJqktqwyvgGL+DI5HjeQijfPf2BLoYKjXTiNMz+bu2o1nRZziqzDhxKpHJm9gUAJNjd3gLvfsjFhvXX11KXTSyPrhbb9HKVE2TZClhH/lgyVfmR/i8a0C7OSj6PPSsOysj/wJPqs32rDKmVEmT2mYPuK2v6D2eiTD9CwneBjCq6EyeK30SIydlkIb80AEDa37NXvRpr5q6OZcRYWYq8idnHQGg==
 
 # Prepare our build minion
 #before_install:
