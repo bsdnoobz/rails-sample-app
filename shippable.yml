@@ -16,8 +16,8 @@ env:
     - secure: V/r/G13m6oRzYGDbVu96XKYbvfcdao6AnBNFEI5c6lJjnd2Hf/SkMFtr54M32KpnaeuSpPitbkjkzfCsjGQTXE7jCMYbZHWszGz6QristyY90zKwUzIDqcwmh60Fl6AbCrSOACCzefpXMY4wHS0i5lsJkiKqucefWbpIKoh7L7SkkzMDlxZWU9SXKUGaAjUAnxlkcSdTFMfUJ8MRv0Vk2yXkzULgVwgkEojxljpkm1pdkXqeseqRsIajrhPeqHj+ExSSiyUMImYoUEIl6yJjSSShoxpxrjP8bM6j7xRGGH05MGvg9/4J/sKA6n/EzE2gujAalHzzFVZR2YoUjMkyFw==
 
 # Prepare our build minion
-#before_install:
-#  - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh 
+before_install:
+  - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh 
 
 # Prepare the things needed before executing the unit tests
 before_script:
