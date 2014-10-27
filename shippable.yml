@@ -10,7 +10,10 @@ rvm:
 
 # Set the environment variables
 env:
-  - secure: V/r/G13m6oRzYGDbVu96XKYbvfcdao6AnBNFEI5c6lJjnd2Hf/SkMFtr54M32KpnaeuSpPitbkjkzfCsjGQTXE7jCMYbZHWszGz6QristyY90zKwUzIDqcwmh60Fl6AbCrSOACCzefpXMY4wHS0i5lsJkiKqucefWbpIKoh7L7SkkzMDlxZWU9SXKUGaAjUAnxlkcSdTFMfUJ8MRv0Vk2yXkzULgVwgkEojxljpkm1pdkXqeseqRsIajrhPeqHj+ExSSiyUMImYoUEIl6yJjSSShoxpxrjP8bM6j7xRGGH05MGvg9/4J/sKA6n/EzE2gujAalHzzFVZR2YoUjMkyFw==
+  global:
+    - APP_NAME=fathomless-ocean-2995
+    - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
+    - secure: V/r/G13m6oRzYGDbVu96XKYbvfcdao6AnBNFEI5c6lJjnd2Hf/SkMFtr54M32KpnaeuSpPitbkjkzfCsjGQTXE7jCMYbZHWszGz6QristyY90zKwUzIDqcwmh60Fl6AbCrSOACCzefpXMY4wHS0i5lsJkiKqucefWbpIKoh7L7SkkzMDlxZWU9SXKUGaAjUAnxlkcSdTFMfUJ8MRv0Vk2yXkzULgVwgkEojxljpkm1pdkXqeseqRsIajrhPeqHj+ExSSiyUMImYoUEIl6yJjSSShoxpxrjP8bM6j7xRGGH05MGvg9/4J/sKA6n/EzE2gujAalHzzFVZR2YoUjMkyFw==
 
 # Prepare our build minion
 #before_install:
